@@ -10,7 +10,6 @@
   font-family: 'icomoon';
   font-weight:normal;
   font-style:normal;
-  /*面试题:图标字体出现锯齿 不清晰*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -40,13 +39,6 @@
   line-height: .44rem;
   font-size: .36rem;
   color: #1a1a1a;
-  /*
-  面试题：多行文本出现省略号必备的4个条件
-  1.弹性盒模型
-  2.文字的排列方向 - 垂直方向
-  3.文字显示的行数
-  4.溢出隐藏
-  */
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -194,7 +186,6 @@ nav {
         font-size: .22rem;
         background: linear-gradient(to bottom, transparent, #000);
         box-sizing: border-box;
-        //单行文本出现省略号必备的4个条件
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
